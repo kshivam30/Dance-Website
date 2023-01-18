@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Unbounded:wght@300&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img{
+    height: 30px;
+}
+
+#navbar {
+    background-color: #c60000;
+    padding: 13px 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-family: 'Andika';
+}
+
+#navbar li a:hover{
+    color: yellow;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/image/bg.jpg");
+    height: 300px;
+    font-family: 'Unbounded';
+    flex-direction: column;
+    font-size: 36px;
+}
+
+#introSection div.small{
+    font-size: 18px;
+    padding: 3px;
+}
+
+#missionSection{
+    height: 320px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+#missionSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Andika';
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 20px 20px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 7px;
+    font-family: 'Andika';
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.card-img1{
+    height: 50px;
+    padding: 10px 24px;
+}
+.card-img1 img{
+    height: inherit;
+}
+.card-img2{
+    height: 50px;
+    padding: 10px 24px;
+}
+.card-img2 img{
+    height: inherit;
+}
+.card-img3{
+    height: 50px;
+    padding: 10px 24px;
+}
+.card-img3 img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 13px 18px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #b80a0a26;
+}
+
+#sponsorsSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Andika';
+}
+
+#sponsors{
+    height: 180px;
+    max-width: 1000px;
+    margin: 29px 300px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Andika';
+}

@@ -1,0 +1,45 @@
+extends base.pug
+block scripts
+    script
+      include ../static/index.js
+
+block styles
+    style
+        include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to CDL Dance Academy
+        div.small Create. Dance. Live.
+
+    section#missionSection
+        h2 Our Missions
+        div.card 
+            h3 Dance as a Lifestyle
+            div.card-box 
+                div.card-img1 
+                    img(src="/static/image/1.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eaque perferendis ex debitis obcaecati ad, quos expedita aliquid est autem accusamus et eligendi facere ipsum.
+        div.card 
+            h3 Learn from the best 
+            div.card-box 
+                div.card-img2 
+                    img(src="/static/image/2.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam ea sit odio nihil fugit, omnis nemo aliquam explicabo cupiditate placeat ullam officiis soluta eligendi natus?
+        div.card 
+            h3 Affordable Classes
+            div.card-box 
+                div.card-img3 
+                    img(src="/static/image/3.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ex accusantium dolore voluptatum porro? Libero assumenda quae, at ullam doloremque delectus autem! Non, praesentium dolor.
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/image/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/image/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/image/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/image/logo4.png", alt="Sponsor Image", class="spImage")
